@@ -12,4 +12,4 @@ Then to start it :
 
 ### `npm start`
 
-### .env is on purpose exposed for the test but normally will be enriched in the pipeline
+##### .env is on purpose exposed for the test but normally will be enriched in the pipeline
