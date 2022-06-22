@@ -11,7 +11,7 @@ export default async (userSearch) => {
     if (!data?.hits) return []
     return data.hits
   } catch (error) {
-    console.log('error', error.message)
+    console.error('error', error.message)
     return []
   }
 }
