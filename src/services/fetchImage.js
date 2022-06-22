@@ -8,7 +8,8 @@ export default async (userSearch) => {
         '+'
       )}&image_type=photo&pretty=true`
     )
-    return data?.hits ?? []
+    if (!data?.hits) return []
+    return data.hits
   } catch (error) {
     console.log('error', error.message)
     return []
