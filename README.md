@@ -11,3 +11,5 @@ In the project you need to run first :
 Then to start it :
 
 ### `npm start`
+
+### .env is on purpose exposed for the test but normally will be enriched in the pipeline
